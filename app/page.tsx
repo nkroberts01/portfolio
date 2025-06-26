@@ -13,13 +13,9 @@ export default function Home() {
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
-                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">Your Name</h1>
+                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">Nathan Roberts</h1>
                   <p className="text-xl text-muted-foreground">Machine Learning Engineer & Student</p>
                 </div>
-                <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                  I'm passionate about developing AI solutions that solve real-world problems. Currently focused on
-                  [your specific interests, e.g., computer vision, NLP, reinforcement learning].
-                </p>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Link href="/projects">
                     <Button className="w-full min-[400px]:w-auto">View Projects</Button>
@@ -31,13 +27,13 @@ export default function Home() {
                   </Link>
                 </div>
                 <div className="flex items-center gap-4 mt-4">
-                  <Link href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://github.com/nkroberts01" target="_blank" rel="noopener noreferrer">
                     <Button variant="ghost" size="icon">
                       <Github className="h-5 w-5" />
                       <span className="sr-only">GitHub</span>
                     </Button>
                   </Link>
-                  <Link href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://www.linkedin.com/in/nathan-roberts-325857219/" target="_blank" rel="noopener noreferrer">
                     <Button variant="ghost" size="icon">
                       <Linkedin className="h-5 w-5" />
                       <span className="sr-only">LinkedIn</span>

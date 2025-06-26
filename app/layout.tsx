@@ -12,7 +12,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Your Name - Machine Learning Engineer",
+  title: "Nate Roberts - Machine Learning Engineer",
   description: "Personal portfolio showcasing machine learning projects, research, and blog posts",
     generator: 'v0.dev'
 }
@@ -58,7 +58,7 @@ export default function RootLayout({
                     </SheetContent>
                   </Sheet>
                   <Link href="/" className="flex items-center space-x-2">
-                    <span className="font-bold inline-block">Your Name</span>
+                    <span className="font-bold inline-block">Nate Roberts</span>
                   </Link>
                 </div>
                 <nav className="hidden md:flex gap-6 text-sm font-medium">
@@ -87,13 +87,13 @@ export default function RootLayout({
                   © {new Date().getFullYear()} Your Name. All rights reserved.
                 </p>
                 <div className="flex items-center gap-4">
-                  <Link href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://github.com/nkroberts01" target="_blank" rel="noopener noreferrer">
                     <Button variant="ghost" size="icon">
                       <Github className="h-4 w-4" />
                       <span className="sr-only">GitHub</span>
                     </Button>
                   </Link>
-                  <Link href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://www.linkedin.com/in/nathan-roberts-325857219/" target="_blank" rel="noopener noreferrer">
                     <Button variant="ghost" size="icon">
                       <Linkedin className="h-4 w-4" />
                       <span className="sr-only">LinkedIn</span>
